@@ -14,13 +14,13 @@ public class BookService{
 //    List<BookRepository> bookRepositories;
     BookRepository myBookRepository;
 
-    public void printBookRepository() {
-//        this.bookRepositories .forEach(System.out::println);
-        System.out.println(myBookRepository.getClass());
-    }
-
     @PostConstruct
     public void setup() {
         System.out.println(myBookRepository.getClass());
     }
+
+//    public void printBookRepository() {
+////        this.bookRepositories .forEach(System.out::println);
+//        System.out.println(myBookRepository.getClass());
+//    }
 }
