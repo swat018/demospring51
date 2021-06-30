@@ -6,3 +6,11 @@ IoC 컨테이너 4부: @Component와 컴포넌트 스캔
 IoC 컨테이너 5부: 빈의 스코프
 
 IoC 컨테이너 6부: Environment 프로파일 / 프로퍼티
+
+IoC 컨테이너 7부: MessageSource
+
+IoC 컨테이너 8부: ApplicationEventPublisher
+
+IoC 컨테이너 9부: ResourceLoader
+
+Resource 추상화
