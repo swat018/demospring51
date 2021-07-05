@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SimpleEventService implements EventService{
+    @PerLogging
     @Override
     public void createEvent() {
         try {
@@ -13,7 +14,7 @@ public class SimpleEventService implements EventService{
         }
         System.out.println("Created an event");
     }
-
+    @PerLogging
     @Override
     public void publishEvent() {
         try {
